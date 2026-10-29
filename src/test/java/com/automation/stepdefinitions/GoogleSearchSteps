@@ -49,7 +49,7 @@ public class GoogleSearchSteps {
         searchBox.submit();
     }
 
-//    @Then("I should see search results related to {string}")
+    @Then("I should see search results related to {string}")
 //    public void i_should_see_search_results(String expectedText) {
 //
 //        wait.until(
