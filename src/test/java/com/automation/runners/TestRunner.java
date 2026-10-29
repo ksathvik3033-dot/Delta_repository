@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/cucumber-reports/cucumber.html"
         },
+        tags = "@wirelessheadphones",
         monochrome = true
 )
 public class TestRunner {
